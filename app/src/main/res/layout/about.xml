@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvUnpam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/universitas_pamulang"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TvTitleAbout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/about"
+        android:textColor="@color/text_color"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/tvUnpam"
+        app:layout_constraintTop_toBottomOf="@+id/tvUnpam" />
+
+    <TextView
+        android:id="@+id/tvBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/name"
+        android:textColor="@color/text_color"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/TvTitleAbout"
+        app:layout_constraintTop_toBottomOf="@+id/TvTitleAbout" />
+
+    <TextView
+        android:id="@+id/tvBody1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/nim"
+        android:textColor="@color/text_color"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/tvBody"
+        app:layout_constraintTop_toBottomOf="@+id/tvBody" />
+
+    <TextView
+        android:id="@+id/tvBody2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/dosen"
+        android:textColor="@color/text_color"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/tvBody1"
+        app:layout_constraintTop_toBottomOf="@+id/tvBody1" />
+
+    <TextView
+        android:id="@+id/tvBody3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/app_name"
+        android:textColor="@color/text_color"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/tvBody2"
+        app:layout_constraintTop_toBottomOf="@+id/tvBody2" />
+
+    <TextView
+        android:id="@+id/tvBody4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="@string/copyright"
+        android:textColor="@color/colorTransparat"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="-30dp"
+            android:layout_marginBottom="-50dp"
+            android:contentDescription="@string/decorations"
+            android:src="@drawable/bg_circle_gradient" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-50dp"
+            android:layout_marginEnd="-50dp"
+            android:contentDescription="@string/decorations"
+            android:src="@drawable/bg_circle_gradient" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

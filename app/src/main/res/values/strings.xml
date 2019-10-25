@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ATM Simulator </string>
+    <string name="logounpam">LogoUnpam</string>
+    <string name="menu_utama">Menu Utama</string>
+    <string name="cek_saldo">Cek Saldo</string>
+    <string name="transfer">Transfer</string>
+    <string name="tarik_tunai">Tarik Tunai</string>
+    <string name="setor_tunai">Setor Tunai</string>
+    <string name="sapaan">Hi , Welcome Back !!!</string>
+    <string name="decorations">decorations</string>
+    <string name="privasi_police1">By clicking Register you agree to the following</string>
+    <string name="privasi_police2">Terms and Conditions</string>
+    <string name="privasi_police3">without reservation</string>
+    <string name="transfer_saldo">Transfer Saldo</string>
+    <string name="tujuan_transfer">Tujuan Transfer</string>
+    <string name="nominal_transfer">Nominal Transfer</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="confirm_pin">Konfirmasi Password</string>
+    <string name="copyright">Copyright By Muhammad Ramdani 2019</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="nominal_setor">Nominal Setor</string>
+    <string name="nominal_tarik_tunai">Nominal Tarik Tunai</string>
+    <string name="logout">Logout</string>
+    <string name="about">About</string>
+
+    <!--sharedpreferences-->
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="user_saldo">user_saldo</string>
+    <!--end sharedpreferences-->
+
+
+    <string name="name">Nama Mahasiswa / Developer : Muhammad Ramdani</string>
+    <string name="nim">Nim : 2015140815</string>
+    <string name="dosen">Dosen : Joko Riyanto</string>
+    <string name="body">Tugas Membuat Aplikasi simulasi ATM </string>
+    <string name="unpam">Universitas Pamulang</string>
+    <string name="universitas_pamulang">Universitas Pamulang</string>
+    <string name="info">Info</string>
+    <string name="tutup">Tutup</string>
+
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#F3A202</color>
+    <color name="colorAccent">#018DFF</color>
+    <color name="white">#ffffff</color>
+    <color name="view1">#d1d1d1</color>
+    <color name="text_color">#3e3e3e</color>
+
+    <color name="colorTransparat">#80018DFF</color>
+    <color name="bg_color_editext">#EEF4FD</color>
+    <color name="red">#F43636</color>
+    <color name="biru">#0C02FA</color>
+</resources>

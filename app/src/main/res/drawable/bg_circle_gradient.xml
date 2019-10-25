@@ -1,0 +1,25 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Button Focused-->
+    <item android:state_focused="true" android:state_pressed="false">
+        <shape android:shape="oval">
+            <gradient
+                android:type="linear"
+                android:startColor="@color/colorTransparat"
+                android:centerColor="@color/biru"
+                android:endColor="@color/colorAccent"/>
+            <!--<size android:width="1dp" android:height="1dp"/> -->
+        </shape>
+    </item>
+
+    <!-- Button Default Image-->
+    <item>
+        <shape android:shape="oval">
+            <gradient
+                android:type="linear"
+                android:startColor="@color/white"
+                android:centerColor="@color/colorTransparat"
+                android:endColor="@color/white"/>
+            <!-- <size android:width="1dp" android:height="1dp"/> -->
+        </shape>
+    </item>
+</selector>

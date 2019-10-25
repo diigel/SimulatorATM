@@ -1,0 +1,17 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Button Focused-->
+    <item android:state_focused="true" android:state_pressed="false">
+        <shape android:shape="oval">
+            <solid android:color="@color/colorTransparat" />
+            <!--<size android:width="1dp" android:height="1dp"/> -->
+        </shape>
+    </item>
+
+    <!-- Button Default Image-->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/colorTransparat" />
+            <!-- <size android:width="1dp" android:height="1dp"/> -->
+        </shape>
+    </item>
+</selector>
